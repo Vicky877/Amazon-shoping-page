@@ -1,0 +1,156 @@
+header {
+    background-color: black;
+    height: 100px;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 700px;
+    margin-top: 25px;
+    margin-right: 450px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    background-color: #e8e8e8;
+    width: 40%;
+    height: 450px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#watch-pica {
+    width: 375px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#watchpica {
+    width: 375px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    background-color: white;
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    float: right;
+    margin-right: 30px;
+}
+
+aside>p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.g {
+    position: absolute;
+    top: 415px;
+    left: 340px;
+    bottom: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#black {
+    padding: 20px 45px;
+    background-color: #23211f;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+#blue {
+    padding: 20px 45px;
+    background-color: #565681;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#purple {
+    padding: 20px 45px;
+    background-color: #8a5362;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#pink {
+    padding: 20px 45px;
+    background-color: #e9c7be;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#select {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#buybtn {
+    margin-top: 50px;
+}
+
+#featur {
+    padding: 10px 25px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: #e8e8e8;
+    border: none;
+}
+
+#buybtn {
+    padding: 10px 25px;
+    font-weight: 700;
+    background-color: #f8991d;
+    border: none;
+}
+
+.d-none {
+    display: none;
+}
+
+#heart {
+    font-size: 150px;
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 380px;
+    left: 345px;
+    bottom: 20px;
+    color: #e00;
+    animation: beat .25s infinite alternate;
+    transform-origin: center;
+}
+
+@keyframes beat {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.none {
+    display: none;
+}
+
+.sara {
+    visibility: hidden;
+}
